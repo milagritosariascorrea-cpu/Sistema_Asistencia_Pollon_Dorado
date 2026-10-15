@@ -19,25 +19,4 @@ test_pruebas.py            Casos de prueba con datos simulados de campo
 data/                       Carpeta donde se guardan los archivos .txt y .xlsx
 ```
 
-## Requisitos
 
-```
-pip install openpyxl
-```
-
-## Cómo ejecutar
-
-```
-python main.py          # Programa interactivo con menú
-python test_pruebas.py  # Corre casos de prueba automáticos
-```
-
-## Notas
-
-- El turno Tarde puede cruzar la medianoche; el cálculo de horas lo maneja
-  automáticamente `calcular_horas_trabajadas()` en `modulo_asistencia.py`.
-- La tarifa por hora (`TARIFA_HORA` en `main.py`) es referencial: ajústala al
-  acuerdo real con el dueño del negocio.
-- Antes de la entrega, sube este proyecto a un repositorio en GitHub con
-  commits progresivos (ver sugerencia de historial en el informe técnico,
-  Paso 5).
